@@ -1,0 +1,81 @@
+/* Centering the container */
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  background-color: #e3e6c6; /* Add a background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Centering the dice and adding padding */
+.dice {
+  text-align: center;
+  display: inline-block;
+  padding: 10px; /* Add padding */
+}
+
+/* Body styling */
+body {
+  background-color: #989b7f;
+  font-family: 'Arial', sans-serif; /* Use a more generic font family as fallback */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+/* Header styling */
+h1 {
+  margin: 30px;
+  font-family: sans-serif;
+  text-shadow: 5px 0 #080a0b;
+  font-size: 5rem; /* Adjust font size */
+  color: #030706;
+  transition: transform 0.3s ease; /* Add transition for hover effect */
+}
+
+h2 {
+  margin: 30px;
+  font-family: sans-serif;
+  text-shadow: 5px 0 #080a0b;
+  font-size: 6rem; /* Adjust font size */
+  color: #030706;
+  transition: transform 0.3s ease; /* Add transition for hover effect */
+}
+
+h1:hover {
+  transform: scale(1.1); /* Add hover effect */
+}
+
+/* Paragraph styling */
+p {
+  font-size: 2rem;
+  color: #060707;
+  font-family: sans-serif;
+  margin: 20px 0; /* Add margin */
+}
+
+/* Image styling */
+img {
+  width: 80%;
+  transition: transform 0.3s ease; /* Add transition for hover effect */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+img:hover {
+  transform: scale(1.05); /* Add hover effect */
+}
+
+/* Footer styling */
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: sans-serif,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 10px 0; /* Add padding */
+  background-color: #975b39; /* Add background color */
+  border-radius: 0 0 10px 10px; /* Rounded corners for footer */
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
